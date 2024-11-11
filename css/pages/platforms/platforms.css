@@ -1,0 +1,44 @@
+.platforms {
+  padding-top: 20px;
+
+  background-image: url('../../../images/background-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 100vh;
+}
+
+.platforms__container {
+  position: relative;
+  height: 100%;
+}
+
+.platforms__inf {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 624px;
+  height: 369px;
+  padding: 70px;
+  background-color: var(--marsupilami);
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+
+.platforms__inf p {
+  font-size: 42px;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.platforms__inf button {
+  padding: 19px 50px;
+  background-color: var(--black);
+
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--marsupilami);
+}
