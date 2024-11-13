@@ -19,7 +19,7 @@
   right: 0;
   width: 624px;
   height: 369px;
-  padding: 70px;
+  padding: 65px;
   background-color: var(--marsupilami);
 
   display: flex;
@@ -29,7 +29,8 @@
 }
 
 .platforms__inf p {
-  font-size: 42px;
+  font-family: Cyberpunk;
+  font-size: 50px;
   font-weight: 400;
   color: var(--black);
 }
@@ -38,6 +39,7 @@
   padding: 19px 50px;
   background-color: var(--black);
 
+  font-family: Roboto;
   font-size: 24px;
   font-weight: 700;
   color: var(--marsupilami);

@@ -1,0 +1,147 @@
+.prize {
+  background-image: url('/images/background-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  max-height: 884px;
+}
+
+.prize__container {
+  padding-top: 85px;
+  padding-bottom: 70px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.prize__content {
+  align-self: flex-start;
+
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  gap: 25px;
+}
+
+.prize__title {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  font-family: Cyberpunk, sans-serif;
+  font-size: 62px;
+  color: var(--white);
+}
+
+.prize__text {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.prize__text span {
+  color: var(--nancy);
+}
+
+.prize__game-console {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prize__form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.prize__form input {
+  padding-bottom: 13px;
+  background-color: inherit;
+  border-bottom: 1px solid var(--lucky-gray);
+
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.prize__form input::placeholder {
+  color: var(--white);
+}
+
+.prize__upload-btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.prize__upload-btn input[type='file'] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.prize__upload-btn button {
+  padding: 39px 137px;
+  background-color: inherit;
+
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.8;
+  border: 2px dashed var(--lucky-gray);
+  cursor: pointer;
+}
+
+.prize__image img {
+  width: 788px;
+  height: auto;
+}
+
+.prize__custom-checkbox input {
+  display: none;
+}
+
+.prize__custom-checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--white);
+}
+
+.prize__checkmark {
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--lucky-gray);
+  position: relative;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.prize__checkmark::after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.prize__custom-checkbox input:checked + .prize__checkmark::after {
+  display: block;
+  left: 50%;
+  top: 50%;
+  width: 4px;
+  height: 7px;
+  border: solid var(--marsupilami);
+  border-width: 0 2px 2px 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+}

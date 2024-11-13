@@ -20,7 +20,33 @@
 }
 
 .title {
-  font-size: 62px;
+  font-family: Cyberpunk, sans-serif;
+  font-size: 56px;
   font-weight: 400;
+}
+
+.title_black {
+  color: var(--black);
+}
+
+.title_white {
+  color: var(--white);
+}
+
+.btn {
+  padding: 19px 50px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn_black {
+  background-color: var(--black);
+  color: var(--marsupilami);
+}
+
+.btn_marsupilami {
+  background-color: var(--marsupilami);
   color: var(--black);
 }

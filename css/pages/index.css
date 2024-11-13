@@ -2,3 +2,6 @@
 @import url('./header/header.css');
 @import url('./platforms/platforms.css');
 @import url('./description-game/description-game.css');
+@import url('./prize/prize.css');
+@import url('./screen/screen.css');
+@import url('./content-block/content-block.css');

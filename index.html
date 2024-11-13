@@ -67,7 +67,7 @@
 
             <div class="platforms__inf">
               <p>Доступно на всех платформах</p>
-              <button>Узнать больше</button>
+              <button class="btn btn_black">Узнать больше</button>
             </div>
           </div>
         </section>
@@ -86,6 +86,101 @@
 
               <div class="gallery__item galery__item_big"><img src="./images/galery/galery-3.png" alt="" /></div>
               <div class="gallery__item"><img src="./images/galery/galery-2.png" alt="" /></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="prize">
+          <div class="prize__container">
+            <div class="prize__content">
+              <div class="prize__title">
+                <img src="./images/prize/promotion.png" alt="Акция" />
+                <h2>Играй и выигрывай!</h2>
+              </div>
+              <p class="prize__text">
+                Играй в <span>Cyberpunk 2077</span> и получи возможность выиграть консоль <span>Xbox Series X</span> или
+                <span>Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша
+                будут подведены 1 февраля. Удачи! ;)
+              </p>
+            </div>
+
+            <div class="prize__game-console">
+              <form class="prize__form" action="#">
+                <input class="prize__name" type="text" placeholder="Как тебя зовут?" />
+                <input class="prize__email" type="email" placeholder="Твой e-mail" />
+
+                <div class="prize__upload-btn">
+                  <button>
+                    Прикрепить скриншот
+                    <p>.png / .jpg / .pdf</p>
+                  </button>
+
+                  <input type="file" />
+                </div>
+
+                <button class="prize__btn btn btn_marsupilami" type="submit">Отправить</button>
+
+                <label class="prize__custom-checkbox" for="personalData">
+                  <input id="personalData" type="checkbox" />
+                  <span class="prize__checkmark"></span>
+                  Согласен на обработку персональных данных
+                </label>
+              </form>
+              <div class="prize__image">
+                <img src="/images/prize/ps.png" alt="Приставка" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="screen">
+          <div class="screen__container">
+            <div class="screen__block-images">
+              <img class="screen__image" src="/images/screen/screen.png" alt="Монитор" />
+              <ul class="screen__logos">
+                <li class="screen__logo"><img src="/images/screen/hp.png" alt="hp" /></li>
+                <li class="screen__logo"><img src="/images/screen/logo.png" alt="logo" /></li>
+                <li class="screen__logo"><img src="/images/screen/Cyberpunk.png" alt="cyberpunk" /></li>
+              </ul>
+            </div>
+
+            <div class="screen__content content-block">
+              <h2 class="title title_black">Полное погружение вместе с HP</h2>
+              <p class="content-block__text">
+                Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8
+                дюйма, созданном для отображения максимально насыщенных цветов. Успевай реагировать на любые события с
+                временем отклика 1 мс и частотой в 144 Гц!
+              </p>
+              <ul class="content-block__list">
+                <li class="content-block__item">
+                  <object
+                    type="image/svg+xml"
+                    data="./images/content-block/auto_awesome.svg"
+                    width="32px"
+                    height="32px"
+                  >
+                    Your browser does not support SVG
+                  </object>
+                  Яркие насыщенные цвета
+                </li>
+                <li class="content-block__item">
+                  <object
+                    type="image/svg+xml"
+                    data="./images/content-block/auto_awesome_motion.svg"
+                    width="32px"
+                    height="32px"
+                  >
+                    Your browser does not support SVG</object
+                  >Кристальная четкость изображения
+                </li>
+                <li class="content-block__item">
+                  <object type="image/svg+xml" data="./images/content-block/color_lens.svg" width="32px" height="32px">
+                    Your browser does not support SVG</object
+                  >Быстрые движения и плавный геймплей
+                </li>
+              </ul>
+
+              <button class="btn btn_black">Подробнее</button>
             </div>
           </div>
         </section>

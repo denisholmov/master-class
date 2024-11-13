@@ -1,0 +1,38 @@
+.screen {
+  background-image: url('/images/background-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 100vh;
+}
+
+.screen__container {
+  padding-top: 140px;
+  padding-bottom: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.screen__block-images {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.screen__image img {
+  width: 100%;
+  height: auto;
+}
+
+.screen__logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.screen__logo img {
+  width: 100%;
+  height: auto;
+}
