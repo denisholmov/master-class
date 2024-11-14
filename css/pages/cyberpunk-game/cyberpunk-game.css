@@ -1,0 +1,84 @@
+.cyberpunk-game {
+  width: 100%;
+  max-height: 717px;
+  position: relative;
+  background-color: var(--black);
+}
+
+.cyberpunk-game:before {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+
+  background-image: url('/images/disk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cyberpunk-game__container {
+  position: relative;
+  height: 100%;
+}
+
+.cyberpunk-game__content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  padding: 70px 32px;
+  max-width: 700px;
+
+  position: relative;
+  top: 0;
+  left: 50%;
+
+  color: var(--white);
+}
+
+.cyberpunk-game__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 46px;
+  margin-bottom: 50px;
+}
+
+.cyberpunk-game__item {
+  position: relative;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.cyberpunk-game__item object {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -46px;
+}
+
+.cyberpunk-game__title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--nancy);
+}
+
+.cyberpunk-game__choosing-platform {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cyberpunk-game__logos {
+  width: 319px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 55px;
+}
