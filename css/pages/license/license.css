@@ -1,0 +1,24 @@
+.license__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0;
+}
+
+.license__container ul {
+  display: flex;
+  text-align: center;
+  gap: 32px;
+}
+
+.license__container li {
+  align-self: center;
+  cursor: pointer;
+}
+
+.license__container a {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-family: 400;
+
+  color: var(--black);
+}

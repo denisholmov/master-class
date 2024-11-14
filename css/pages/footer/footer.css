@@ -1,0 +1,15 @@
+.footer {
+  background-color: var(--black);
+}
+
+.footer__container {
+  padding: 13px 0;
+  text-align: center;
+}
+
+.footer__text {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+}
