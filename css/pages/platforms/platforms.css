@@ -1,7 +1,10 @@
 .platforms {
   padding-top: 20px;
 
-  background-image: url('../../../images/background-1.jpg');
+  /* Здесь нужно подключить фотографию в background-image ../../../images/background-1.jpg*/
+  background-image: url('');
+  /* Здесь нужно подключить фотографию */
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
