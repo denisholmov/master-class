@@ -6,6 +6,10 @@
 
   padding-top: 70px;
   padding-bottom: 70px;
+
+  /* Поменять цвет на white */
+  background-color: aqua;
+   /* Поменять цвет на white */
 }
 
 .gallery {
